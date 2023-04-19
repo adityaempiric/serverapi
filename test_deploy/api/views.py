@@ -11,3 +11,6 @@ class TestView(APIView):
             'data' : serializer.data
         })
 
+
+def home(request):
+     return render(request,"home.html")
