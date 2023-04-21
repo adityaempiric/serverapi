@@ -12,9 +12,9 @@ services:
         image: postgres
         restart: always
         environment:
-          POSTGRES_USER: myuser
-          POSTGRES_PASSWORD: mypassword
-          POSTGRES_DB: myproject
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: 0000
+          POSTGRES_DB: newshreetextile
         volumes:
         - db_data:/var/lib/postgresql/data/
         
